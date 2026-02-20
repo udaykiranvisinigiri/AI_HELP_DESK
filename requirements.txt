@@ -6,17 +6,10 @@ pydantic-settings==2.3.0
 
 python-dotenv==1.0.1
 
-# OpenAI (new SDK - you are using this)
 openai==1.33.0
 
-# PostgreSQL
 psycopg2-binary==2.9.9
 
-# Optional (recommended for async performance)
 anyio==4.4.0
 
-# If you later add auth hashing
 passlib[bcrypt]==1.7.4
-
-# UUID support (usually built-in, but safe)
-uuid==1.30
