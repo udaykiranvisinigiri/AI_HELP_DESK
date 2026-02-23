@@ -36,5 +36,16 @@ class ChatResponse(BaseModel):
 class LoginRequest(BaseModel):
     username: str
     password: str
+
+class Ticket(BaseModel):
+    ticket_id: str
+    session_id: str
+    user_role: str
+    tier: str
+    severity: str
+    summary: str
+    status: str
+    assigned_to: Optional[str] = None
+    closed_by: Optional[str] = None
     
 
